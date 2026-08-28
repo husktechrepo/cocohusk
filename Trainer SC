@@ -1755,3 +1755,15 @@ class HuskTechMenuGUI(ttk.Window):
 if __name__ == "__main__":
     app = HuskTechMenuGUI()
     app.mainloop()
+
+
+
+---==settings.ini===--
+[github]
+owner = husktechrepo
+repo = cocohusk
+branch = main
+release_tag = model
+
+ssl_verify = false
+ca_bundle = 
